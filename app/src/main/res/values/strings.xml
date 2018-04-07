@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pig Latin Translator</string>
+    <string name="more">More to Translate? Take a Ride Back on This Pig!</string>
+    <string name="directions">Latin may be a dead language, but Pig Latin is still alive!</string>
+    <string name="shortDirections">Pig Latin is still alive!</string>
+    <string name="translate">Translate</string>
+    <string name="hint">Type here...</string>
+    <string name="colors_setting">Colors</string>
+    <string name="fonts_setting">Fonts</string>
+    <string name="delete">Delete First</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

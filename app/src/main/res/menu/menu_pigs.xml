@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PigLatinActivity">
+
+    <item
+        android:id = "@+id/addFav"
+        android:icon="@drawable/ic_action_new_event"
+        android:title="Add Favorite"
+        android:orderInCategory="1"
+        app:showAsAction ="ifRoom"
+        />
+    <item
+        android:id = "@+id/viewFav"
+        android:icon="@drawable/ic_action_view_as_list"
+        android:title="Display Favorites"
+        android:orderInCategory="2"
+        app:showAsAction ="ifRoom"
+        />
+    <item android:id="@+id/share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        />
+</menu>
